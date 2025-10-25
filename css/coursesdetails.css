@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.nav-bar{
+    width: 100%;
+    background: #61daff;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+
+nav{
+    display: flex;
+    padding: 10px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    text-decoration: none;
+    width: 25%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.nav-links ul li a:hover{
+    background: #0c5a99;
+    padding: 10px;
+}
+nav .fa-solid{
+    display: none;
+}
+
+.Home{
+    width: 98%;
+    margin: 20px;
+
+}
+
+.Top-image img{
+    width:95%;
+    background-size:contain ;
+    height: 300px;
+    
+}
+
+.catering{
+    width:98%;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+
+.catering-nav-bar{
+   text-align: center;
+}
+
+.catering-nav-bar h1{
+    font-size: 70px;
+    padding-top: 40px;
+}
+
+.course-head{
+    font-size: 50px;
+}
+
+.catering-Content{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.section-content{
+padding-bottom: 50px;
+}
+
+.items{
+    width: 45%;
+    margin: 5px;
+    padding: 10px;
+   background: white;
+    display: flex;
+    overflow: hidden;
+    font-size: 25px;
+   
+}
+
+.hairdres-color{
+    background: rgb(255, 228, 247);
+}
+
+.catering-color{
+    background: #efe3ff;
+}
+
+.fashion-color{
+    background: rgb(255, 255, 230);
+}
+
+
+
+.items img{
+    width:25%;
+}
+
+
+
+
+
+

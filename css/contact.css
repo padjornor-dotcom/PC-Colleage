@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav-bar{
+  width: 100%;
+  background: #61daff;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+nav{
+  display: flex;
+  padding: 10px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  text-decoration: none;
+ width: 25%;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 15px;
+  position: relative;
+}
+.nav-links ul li a{
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-links ul li a:hover{
+  background: #0c5a99;
+  padding: 10px;
+}
+nav .fa-solid{
+  display: none;
+}
+
+.contact-header{
+  text-align: center;
+  background: rgb(209, 248, 255);
+}
+.contact-header h1{
+  text-align: center;
+  font-size: 60px;
+  padding: 30px;
+
+
+}
+.contact-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding-left:20px ;
+  }
+  .contact-text{
+    display: flex;
+    width:90%;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 50px;
+  }
+  .contact-text h5{
+    font-size: 25px;
+    color: gray;
+    margin: 10px;
+  }
+  .contact-text h2{
+    font-size: 30px;
+    color: #000000;
+    margin: 10px;
+  }
+  .contact-text h3{
+    font-size: 20px;
+    color: #000000;
+    margin: 10px;
+  }
+  .contact-info p{
+    font-size: 15px;
+    color: #000000;
+    margin: 10px;
+  }
+  .contact-us{
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+  }
+  .contact-form{
+    width: 90%;
+  }
+  .contact-form p{
+    font-size: 30px;
+    padding: 20px;
+    font-size: 700;
+  }
+  .contact-form h2{
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 900;
+  }
+
+  .contact-map{
+    background: rgb(248, 248, 248);
+    padding: 20px;
+  }
+  input[type=text], input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+     resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #190749;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(59, 35, 126);
+    color: #ffff;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
